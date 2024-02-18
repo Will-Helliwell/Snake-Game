@@ -20,7 +20,7 @@ body, .snake {
 }
 
 .game-border-1{
-    border: red solid 10px;
+    border: #595f43 solid 10px;
     border-radius: 30px;
     box-shadow: inset 0 0 0 10px #595f43;
 }
@@ -35,4 +35,52 @@ body, .snake {
     border: #8b966c solid 30px;
     border-radius: 20px;
     box-shadow: inset 0 0 0 5px #8b966c;
+}
+
+#instruction-text{
+    position: absolute;
+    top: 60%;
+    color: #333;
+    width: 300px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 30%;
+    margin: 0;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-between;
+}
+
+#score {
+    color: #c5c7c0;
+}
+
+#high-score {
+    color: #d8ddca;
+    display: none;
+}
+
+#score, #high-score {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px 0px;
+}
+
+.game-border-3, #logo {
+    background-color: #c4cfa3;
+}
+
+.snake {
+    border: #5a5a5a 1px dotted;
+}
+
+.food {
+    background-color: #dedede;
+    border: #999 5px solid;
+}
+
+#logo {
+    position: absolute;
 }
